@@ -1,0 +1,88 @@
+
+       {% extends 'base.html' %}
+       {% load static %}
+       {% block content %}
+        
+        <!-- Start Header Section -->
+        <div class="page-header">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Our Services</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Section -->
+        
+        
+        
+        
+        <!-- Start Service Section -->
+        <section id="service-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <a href="#"><i class="fa fa-home"></i></a>
+				            <h2>House Cleaning</h2>
+							<p>Without worrying about liability and service interruptions, we will generate a timetable that works for you before implementing it in the weeks and months ahead, depending on your cleaning choices, the required frequency of house cleaning and the budget.</p>
+				        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <a href="#"><i class="fa fa-building" aria-hidden="true"></i></a>
+				            <h2>COMMERCIAL CLEANING
+                                SERVICES</h2>
+							<p>We understand where the areas of risk are and that germs are spreading rapidly from one worker to another. The risk of this is significantly decreased with a clean setting, and you can happily increase the amount of time spent at job. </p>
+				        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <a href="#"><i class="fa fa-suitcase" aria-hidden="true"></i></a>
+				            <h2>MOVE IN/MOVE OUT CLEANS</h2>
+							<p>Whether you are moving in or out, it is no simple job to get it properly cleaned. It's true, especially if you're time-limited and have stringent requirements to meet if you're going to get your complete deposit back. </p>
+				        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <img src="{% static 'images/deep_clean.png' %}" alt="" />
+				            <h2>DEEP CLEANING</h2>
+							<p>In order to make your home feel fresh and new, we combine our standard cleaning package with deep cleaning. It takes a little extra time, but thanks to our professional staff who are fully trained to ensure that your home is properly cleaned, you will find it worth it. </p>
+				        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <img src="{% static 'images/wardrobe.png' %}" alt="" />
+				            <h2>wardrobe Organisation</h2>
+							<p>Organising cloths, segregating your favourite cloths in an order of your preference. </p>
+				        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <img src="{% static 'images/interior.png' %}" alt="" />
+				            <h2>Interior Decorations</h2>
+							<p>If you require your house to be styled using a specific theme or if you need help with styling your house, our professional designers can help you. </p>
+				        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services-post">
+				            <img src="{% static 'images/party.png' %}" alt="" />
+				            <h2>Family Party Decorations</h2>
+							<p>Our professional designers can help you orgainise and decorate a family event. </p>
+				        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Service Section -->
+        
+        
+        
+        
+        
+
+        
+    {% endblock content %}
